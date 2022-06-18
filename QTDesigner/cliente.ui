@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>517</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="cadastroCli_button">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/logo_cadastro/cadastrar.png)</string>
+   </property>
+   <property name="text">
+    <string>Cadastro</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_cadastro/cadastrar.png</normaloff>:/logo_cadastro/cadastrar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="excluirCli_button">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_excluir/excluir.png</normaloff>:/logo_excluir/excluir.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cestaCli_button">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>0</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Cesta Cliente</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_cesta/consultar.png</normaloff>:/logo_cesta/consultar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addcesta_button">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>0</y>
+     <width>111</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Adicionar a Cesta</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_adicionar/adicionar.png</normaloff>:/logo_adicionar/adicionar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="excluircesta_button">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>0</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Excluir da Cesta</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_excluir/excluir.png</normaloff>:/logo_excluir/excluir.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="retorno_bd">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>501</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CPF</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telefone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="NameClient">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CPF do Cliente:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="search_button">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>110</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>pesquisar.png</normaloff>pesquisar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="search_client">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="todos_button">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>110</y>
+     <width>21</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>pesquisar.png</normaloff>pesquisar.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo_cadastro.qrc"/>
+  <include location="logo_excluir.qrc"/>
+  <include location="logo_cestaCli.qrc"/>
+  <include location="logo_adicionarCesta.qrc"/>
+  <include location="logo_excluircesta.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>funcionarioPage</class>
+ <widget class="QWidget" name="funcionarioPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>425</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="cadastroCli_button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cadastro</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_cadastro/cadastrar.png</normaloff>:/logo_cadastro/cadastrar.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="excluirCli_button">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>10</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_excluir/excluir.png</normaloff>:/logo_excluir/excluir.png</iconset>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="retorno_bd">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>811</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telefone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CPF</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cargo</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Salário</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Carteira de Trabalho</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="CPFClient_3">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Procurar por CPF:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="search_cpf_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>90</y>
+     <width>181</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo_cadastro.qrc"/>
+  <include location="logo_excluir.qrc"/>
+  <include location="logo_cestaCli.qrc"/>
+  <include location="logo_adicionarCesta.qrc"/>
+  <include location="logo_excluircesta.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo_func">
+    <file>funcionario.png</file>
+  </qresource>
+</RCC>

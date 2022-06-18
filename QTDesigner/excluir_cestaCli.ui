@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>excluir_cestacli</class>
+ <widget class="QWidget" name="excluir_cestacli">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>323</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="idCesta">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Id Cesta:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="search_id">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>40</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelar_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_excluir/excluir.png</normaloff>:/logo_excluir/excluir.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="excluircesta_button">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:cliente/logo_cliente/cliente.png)</string>
+   </property>
+   <property name="text">
+    <string>Excluir da Cesta</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/logo_excluir/excluir.png</normaloff>:/logo_excluir/excluir.png</iconset>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="logo_excluir.qrc"/>
+ </resources>
+ <connections/>
+</ui>

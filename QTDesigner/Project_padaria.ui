@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolTip">
+   <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo_cliente/cliente.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="sobre_grouptext">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>331</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logoempresa/icons/fornecedor.png)</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Grupo 7 - Projeto de Banco de Dados&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Componentes:&lt;br /&gt;Guilherme Dallmann Lima&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;João Paulo Brito de Almeida&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Juathan Coelho Duarte&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Padaria&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cliente_button">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logo_cliente/cliente.png)</string>
+    </property>
+    <property name="text">
+     <string>Cliente</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/logo_client.qrc">
+      <normaloff>:/logo_cliente/cliente.png</normaloff>:/logo_cliente/cliente.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="produto_button">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>0</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo_produto/produtos.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image:url(:/logo_produto/produtos.png)</string>
+    </property>
+    <property name="text">
+     <string>Produto</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/logo_produto.qrc">
+      <normaloff>:/logo_produto/produtos.png</normaloff>:/logo_produto/produtos.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fornecedor_button">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo_fornecedor/fornecedor.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logo_fornecedor/fornecedor.png)</string>
+    </property>
+    <property name="text">
+     <string>Fornecedor</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons/logo_fornecedor.qrc">
+      <normaloff>:/logo_fornecedor/fornecedor.png</normaloff>:/logo_fornecedor/fornecedor.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="funcionario_button">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo_funcionario/alterar.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/logo_funcionario/alterar.png)</string>
+    </property>
+    <property name="text">
+     <string>Funcionario</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/alterar.png</normaloff>icons/alterar.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>608</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="title">
+     <string>Cadastro</string>
+    </property>
+    <addaction name="actionAdicionar_Cliente"/>
+    <addaction name="actionAdicionar_Funcionario"/>
+    <addaction name="actionAdicionar_Fornecedor"/>
+    <addaction name="actionAdicionar_Produto"/>
+   </widget>
+   <widget class="QMenu" name="menuOperacoes">
+    <property name="title">
+     <string>Operacoes</string>
+    </property>
+    <widget class="QMenu" name="menuProdutos_na_cesta">
+     <property name="title">
+      <string>Funcionario</string>
+     </property>
+     <addaction name="actionProcura_Funcionario"/>
+     <addaction name="actionExclui_Funcionario"/>
+    </widget>
+    <widget class="QMenu" name="menuExclusao">
+     <property name="title">
+      <string>Cliente</string>
+     </property>
+     <addaction name="actionExclusao_de_Cliente"/>
+     <addaction name="actionExclusao_do_Cliente"/>
+     <addaction name="actionLista_itens_da_cesta_do_Cliente"/>
+     <addaction name="actionExclui_itens_da_cesta_do_Cliente"/>
+     <addaction name="actionAdiciona_itens_na_cesta_do_Cliente"/>
+    </widget>
+    <widget class="QMenu" name="menuFornecedor_2">
+     <property name="title">
+      <string>Fornecedor</string>
+     </property>
+     <addaction name="actionProcura_Fornecedor"/>
+     <addaction name="actionExclui_Fornecedor"/>
+     <addaction name="actionAdiciona_iten_fornecido"/>
+     <addaction name="actionAtualiza_valor_do_iten_fornecido"/>
+     <addaction name="actionProcura_por_itens_fornecidos"/>
+    </widget>
+    <widget class="QMenu" name="menuProduto_2">
+     <property name="title">
+      <string>Produto</string>
+     </property>
+     <addaction name="actionAtuaizar_pre_o_do_item"/>
+     <addaction name="actionAdiciona_produtos_ao_catalogo_do_estoque"/>
+     <addaction name="actionProcura_por_Produto_no_Estoque"/>
+     <addaction name="actionDeleta_produto_do_estoque"/>
+    </widget>
+    <addaction name="menuExclusao"/>
+    <addaction name="menuProdutos_na_cesta"/>
+    <addaction name="menuFornecedor_2"/>
+    <addaction name="menuProduto_2"/>
+   </widget>
+   <widget class="QMenu" name="menuVizualiza_o_do_banco">
+    <property name="title">
+     <string>Vizualização do banco</string>
+    </property>
+    <addaction name="actionSele_o_dos_Funcionarios"/>
+    <addaction name="actionSele_o_dos_Clientes"/>
+    <addaction name="actionSele_o_de_Produtos"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuOperacoes"/>
+   <addaction name="menuVizualiza_o_do_banco"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdicionar_Funcionario">
+   <property name="text">
+    <string>Adicionar Funcionario</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_Cliente">
+   <property name="text">
+    <string>Adicionar Cliente</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_Fornecedor">
+   <property name="text">
+    <string>Adicionar Fornecedor</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_Produto">
+   <property name="text">
+    <string>Adicionar Produto</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_a_Cesta">
+   <property name="text">
+    <string>Adicionar a Cesta</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_ao_Estoque">
+   <property name="text">
+    <string>Adicionar ao Estoque</string>
+   </property>
+  </action>
+  <action name="actionExclusao_Funcionario">
+   <property name="text">
+    <string>Excluir da Cesta</string>
+   </property>
+  </action>
+  <action name="actionExclusao_Cliente">
+   <property name="text">
+    <string>Excluir do Estoque</string>
+   </property>
+  </action>
+  <action name="actionListar_Produtos_de_um_Cliente">
+   <property name="text">
+    <string>Listar Produtos de um Cliente</string>
+   </property>
+  </action>
+  <action name="actionExcluir_Produtos_de_um_Cliente">
+   <property name="text">
+    <string>Excluir Produtos de um Cliente</string>
+   </property>
+  </action>
+  <action name="actionAdicionar_Produtos_a_um_Cliente">
+   <property name="text">
+    <string>Adicionar Produtos a um Cliente</string>
+   </property>
+  </action>
+  <action name="actionExclusao_de_Cliente">
+   <property name="text">
+    <string>Procura do Cliente</string>
+   </property>
+  </action>
+  <action name="actionExclusao_de_Funcionario">
+   <property name="text">
+    <string>Exclusao de Funcionario</string>
+   </property>
+  </action>
+  <action name="actionExclusao_de_Fornecedor">
+   <property name="text">
+    <string>Exclusao de Fornecedor</string>
+   </property>
+  </action>
+  <action name="actionExclusao_de_Produto">
+   <property name="text">
+    <string>Exclusao de Produto</string>
+   </property>
+  </action>
+  <action name="actionExclusao_de_Item_na_Cesta">
+   <property name="text">
+    <string>Exclusao de Item na Cesta</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Cliente_2">
+   <property name="text">
+    <string>Procurar Cliente</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Funcionario_2">
+   <property name="text">
+    <string>Procurar Funcionario</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Funcionario_3">
+   <property name="text">
+    <string>Procurar Funcionario</string>
+   </property>
+  </action>
+  <action name="actionProcurar_Produto_2">
+   <property name="text">
+    <string>Procurar Produto</string>
+   </property>
+  </action>
+  <action name="actionExclusao_do_Cliente">
+   <property name="text">
+    <string>Exclusao do Cliente</string>
+   </property>
+  </action>
+  <action name="actionLista_itens_da_cesta_do_Cliente">
+   <property name="text">
+    <string>Lista itens da cesta do Cliente</string>
+   </property>
+  </action>
+  <action name="actionExclui_itens_da_cesta_do_Cliente">
+   <property name="text">
+    <string>Exclui itens da cesta do Cliente</string>
+   </property>
+  </action>
+  <action name="actionAdiciona_itens_na_cesta_do_Cliente">
+   <property name="text">
+    <string>Adiciona itens na cesta do Cliente</string>
+   </property>
+  </action>
+  <action name="actionProcura_Funcionario">
+   <property name="text">
+    <string>Procura Funcionario</string>
+   </property>
+  </action>
+  <action name="actionExclui_Funcionario">
+   <property name="text">
+    <string>Exclui Funcionario</string>
+   </property>
+  </action>
+  <action name="actionProcura_Fornecedor">
+   <property name="text">
+    <string>Procura Fornecedor</string>
+   </property>
+  </action>
+  <action name="actionExclui_Fornecedor">
+   <property name="text">
+    <string>Exclui Fornecedor</string>
+   </property>
+  </action>
+  <action name="actionAdiciona_iten_fornecido">
+   <property name="text">
+    <string>Adiciona iten fornecido</string>
+   </property>
+  </action>
+  <action name="actionAtualiza_valor_do_iten_fornecido">
+   <property name="text">
+    <string>Atualiza valor do iten fornecido</string>
+   </property>
+  </action>
+  <action name="actionProcura_por_itens_fornecidos">
+   <property name="text">
+    <string>Procura por itens fornecidos</string>
+   </property>
+  </action>
+  <action name="actionAtuaizar_pre_o_do_item">
+   <property name="text">
+    <string>Atuaizar preço do item</string>
+   </property>
+  </action>
+  <action name="actionAdiciona_produtos_ao_catalogo_do_estoque">
+   <property name="text">
+    <string>Adiciona produtos ao catalogo do estoque</string>
+   </property>
+  </action>
+  <action name="actionProcura_por_Produto_no_Estoque">
+   <property name="text">
+    <string>Procura por Produto no estoque</string>
+   </property>
+  </action>
+  <action name="actionDeleta_produto_do_estoque">
+   <property name="text">
+    <string>Deleta produto do estoque</string>
+   </property>
+  </action>
+  <action name="actionSele_o_dos_Funcionarios">
+   <property name="text">
+    <string>Seleção dos Funcionarios</string>
+   </property>
+  </action>
+  <action name="actionSele_o_dos_Clientes">
+   <property name="text">
+    <string>Seleção dos Clientes</string>
+   </property>
+  </action>
+  <action name="actionSele_o_de_Produtos">
+   <property name="text">
+    <string>Seleção de Produtos</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icons/logo_client.qrc"/>
+  <include location="icons/logo_fornecedor.qrc"/>
+  <include location="icons/logo_funcionario.qrc"/>
+  <include location="icons/logo_produto.qrc"/>
+ </resources>
+ <connections/>
+</ui>

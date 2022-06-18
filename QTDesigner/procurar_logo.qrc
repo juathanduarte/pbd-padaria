@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="procurar_logo">
+    <file>pesquisar.png</file>
+  </qresource>
+</RCC>

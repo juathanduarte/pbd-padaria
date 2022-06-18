@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo_cesta">
+    <file>consultar.png</file>
+  </qresource>
+</RCC>
